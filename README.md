@@ -67,7 +67,7 @@ The service is designed to handle API requests concurrently using goroutines to 
 ### main.go:
 
 The main entry point of the application, responsible for initializing the service and setting up the HTTP server.
-This file ties everything together by integrating the repository_service.go functions and exposing the /repositories API endpoint.
+This file ties everything together by integrating the repository_service.go functions and exposing the /repos API endpoint.
 
 ## Design Decisions
 
