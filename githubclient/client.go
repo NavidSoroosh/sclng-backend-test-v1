@@ -17,7 +17,7 @@ type Client struct {
 func NewClient() *Client {
 	return &Client{
 		HttpClient:   &http.Client{Timeout: 10 * time.Second},
-		Token:        "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",
+		Token:        "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",
 		GitHubAPIURL: "https://api.github.com/repositories",
 	}
 }
